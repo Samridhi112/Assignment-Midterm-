@@ -1,0 +1,150 @@
+/* Main section CSS */
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.main-card {
+  width: calc(75% - 20px);
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.main-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sub-options {
+  margin-top: 20px;
+}
+
+.sub-options li {
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sub-options li:nth-of-type(2),
+.sub-options li:nth-of-type(4),
+.sub-options li:nth-of-type(6) {
+  background-color: #333232;
+  color: white;
+}
+
+.card 
+{
+  width: calc(33.33% - 20px);
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.product-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 15%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 7px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-card img{
+  width: 200px;
+  height: auto;
+  padding: 15px;
+  align-self: center; 
+  margin-bottom: 10px;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  margin-left: 10px;
+  height: 32px;
+  width: 32px;
+}
+
+/* Three cards section CSS */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: initial;
+}
+
+.product-card button {
+  background-color: #333232;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+h2{
+  color: black;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+
+.main-footer{
+  background-color: #2C3F51;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-container {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+}
+
+.main-footer .address-container .address{
+  padding-left: 10px;
+}
+
+
+.main-footer img{
+  height: 50px;
+  width: auto;
+  align-self: center;
+}
